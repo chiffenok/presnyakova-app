@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { Table } from 'presnyakova-lib'
 
 function App() {
   return (
