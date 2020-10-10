@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/presnyakova-app/precache-manifest.8fb0393d03069440404e47c274b91f0b.js"
+  "/presnyakova-app/precache-manifest.6fd66a4f1acaf0cdf5dcbd5478642fc8.js"
 );
 
 self.addEventListener('message', (event) => {
