@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/presnyakova-app/static/css/main.d3aaa3ee.chunk.css",
+    "main.js": "/presnyakova-app/static/js/main.fea4c257.chunk.js",
+    "main.js.map": "/presnyakova-app/static/js/main.fea4c257.chunk.js.map",
+    "runtime-main.js": "/presnyakova-app/static/js/runtime-main.ff8a83c9.js",
+    "runtime-main.js.map": "/presnyakova-app/static/js/runtime-main.ff8a83c9.js.map",
+    "static/js/2.a1737b59.chunk.js": "/presnyakova-app/static/js/2.a1737b59.chunk.js",
+    "static/js/2.a1737b59.chunk.js.map": "/presnyakova-app/static/js/2.a1737b59.chunk.js.map",
+    "index.html": "/presnyakova-app/index.html",
+    "precache-manifest.8fb0393d03069440404e47c274b91f0b.js": "/presnyakova-app/precache-manifest.8fb0393d03069440404e47c274b91f0b.js",
+    "service-worker.js": "/presnyakova-app/service-worker.js",
+    "static/css/main.d3aaa3ee.chunk.css.map": "/presnyakova-app/static/css/main.d3aaa3ee.chunk.css.map",
+    "static/js/2.a1737b59.chunk.js.LICENSE.txt": "/presnyakova-app/static/js/2.a1737b59.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff8a83c9.js",
+    "static/js/2.a1737b59.chunk.js",
+    "static/css/main.d3aaa3ee.chunk.css",
+    "static/js/main.fea4c257.chunk.js"
+  ]
+}
