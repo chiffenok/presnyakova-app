@@ -3,7 +3,8 @@ import { Dropdown, Table } from 'presnyakova-lib';
 import 'presnyakova-lib/dist/index.css';
 import './App.css';
 
-const API_URL = 'api/drawings/euroJackpot/';
+const proxyurl = "https://cors-anywhere.herokuapp.com/";
+const API_URL = 'https://www.lottoland.com/api/drawings/euroJackpot/';
 
 class App extends Component {
   constructor() {
@@ -66,7 +67,7 @@ class App extends Component {
 
   fetchLotteryData() {
     this.setState({ isLoading: true });
-    fetch(`${API_URL}${this.state.selectedDate}`)
+    fetch(proxyurl + API_URL)
       .then(response => {
         if (response.ok) {
           return response.json();
