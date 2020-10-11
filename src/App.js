@@ -3,7 +3,7 @@ import { Dropdown, Table } from 'presnyakova-lib';
 import 'presnyakova-lib/dist/index.css';
 import './App.css';
 
-const API_URL = 'https://www.lottoland.com/api/drawings/euroJackpot/';
+const API_URL = 'api/drawings/euroJackpot/';
 
 class App extends Component {
   constructor() {
