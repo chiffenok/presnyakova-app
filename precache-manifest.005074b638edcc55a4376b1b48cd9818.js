@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbd5046ce5737ab5c74ad506dc023486",
+    "revision": "6ef09897c7ae7b7ff1ab29b8d19697db",
     "url": "/presnyakova-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/presnyakova-app/static/css/2.bc2d62d5.chunk.css"
   },
   {
-    "revision": "ee19adf8d549cb0081c2",
+    "revision": "a35f88d0a4d550da0059",
     "url": "/presnyakova-app/static/css/main.67c9c8ba.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/presnyakova-app/static/js/2.71d15a7a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee19adf8d549cb0081c2",
-    "url": "/presnyakova-app/static/js/main.2a770ce9.chunk.js"
+    "revision": "a35f88d0a4d550da0059",
+    "url": "/presnyakova-app/static/js/main.b7240359.chunk.js"
   },
   {
     "revision": "9ae21d2f8440d0b5b621",
