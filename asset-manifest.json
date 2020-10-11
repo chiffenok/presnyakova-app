@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/presnyakova-app/static/css/main.67c9c8ba.chunk.css",
-    "main.js": "/presnyakova-app/static/js/main.33a46a0c.chunk.js",
-    "main.js.map": "/presnyakova-app/static/js/main.33a46a0c.chunk.js.map",
+    "main.js": "/presnyakova-app/static/js/main.79845e9b.chunk.js",
+    "main.js.map": "/presnyakova-app/static/js/main.79845e9b.chunk.js.map",
     "runtime-main.js": "/presnyakova-app/static/js/runtime-main.ff8a83c9.js",
     "runtime-main.js.map": "/presnyakova-app/static/js/runtime-main.ff8a83c9.js.map",
     "static/css/2.bc2d62d5.chunk.css": "/presnyakova-app/static/css/2.bc2d62d5.chunk.css",
     "static/js/2.71d15a7a.chunk.js": "/presnyakova-app/static/js/2.71d15a7a.chunk.js",
     "static/js/2.71d15a7a.chunk.js.map": "/presnyakova-app/static/js/2.71d15a7a.chunk.js.map",
     "index.html": "/presnyakova-app/index.html",
-    "precache-manifest.0ba9041e23ef11c414495929b3b11290.js": "/presnyakova-app/precache-manifest.0ba9041e23ef11c414495929b3b11290.js",
+    "precache-manifest.2294d917a005ee08e62489bb5b90fce1.js": "/presnyakova-app/precache-manifest.2294d917a005ee08e62489bb5b90fce1.js",
     "service-worker.js": "/presnyakova-app/service-worker.js",
     "static/css/2.bc2d62d5.chunk.css.map": "/presnyakova-app/static/css/2.bc2d62d5.chunk.css.map",
     "static/css/main.67c9c8ba.chunk.css.map": "/presnyakova-app/static/css/main.67c9c8ba.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.bc2d62d5.chunk.css",
     "static/js/2.71d15a7a.chunk.js",
     "static/css/main.67c9c8ba.chunk.css",
-    "static/js/main.33a46a0c.chunk.js"
+    "static/js/main.79845e9b.chunk.js"
   ]
 }
