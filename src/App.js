@@ -72,32 +72,32 @@ function App() {
     return convertedOddsData;
   };
 
-  const fetchLotteryData = () => {
-    setIsLoading(true);
-    // See comment above about PROXY_URL
-    fetch(PROXY_URL + API_URL + selectedDate)
-      .then(response => {
-        if (response.ok) {
-          return response.json();
-        } else {
-          throw new Error('Something went wrong ...');
-        }
-      })
-      .then(data => {
-        const convertedOddsData = convertOddsData(data.last[0].odds);
-        setOddsData(convertedOddsData);
-        setIsLoading(false);
-      })
-      .catch(error => {
-        setError(error);
-        setIsLoading(false);
-      });
-  };
   useEffect(() => {
     if (isInitialMount.current) {
       isInitialMount.current = false;
     } else {
-      fetchLotteryData()
+      const fetchLotteryData = () => {
+        setIsLoading(true);
+        // See comment above about PROXY_URL
+        fetch(PROXY_URL + API_URL + selectedDate)
+          .then(response => {
+            if (response.ok) {
+              return response.json();
+            } else {
+              throw new Error('Something went wrong ...');
+            }
+          })
+          .then(data => {
+            const convertedOddsData = convertOddsData(data.last[0].odds);
+            setOddsData(convertedOddsData);
+            setIsLoading(false);
+          })
+          .catch(error => {
+            setError(error);
+            setIsLoading(false);
+          });
+      };
+      fetchLotteryData();
     }
   }, [lotteryDates, selectedDate]);
 
