@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { Suspense, useState, useEffect, useRef } from 'react';
 import { Dropdown } from 'presnyakova-lib';
-import TableContent from './TableContent';
+
 import './App.css';
 
 // ### App.js with hooks
@@ -12,6 +12,7 @@ import './App.css';
 // I also read that github pages should support CORS, but somehow I didn't work
 // Due to time limit I decided to go with quick solution
 
+const TableContent = React.lazy(() => import('./TableContent'));
 const PROXY_URL = 'https://cors-anywhere.herokuapp.com/';
 const API_URL = 'https://www.lottoland.com/api/drawings/euroJackpot/';
 
@@ -46,6 +47,7 @@ function App() {
   const [selectedDate, setSelectedDate] = useState(null);
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [isTableRendered, setIsTableRendered] = useState(false);
   const [oddsData, setOddsData] = useState([]);
   const [lotteryDates, setLotteryDates] = useState(lotteryDatesInitial);
   const isInitialMount = useRef(true);
@@ -91,10 +93,12 @@ function App() {
             const convertedOddsData = convertOddsData(data.last[0].odds);
             setOddsData(convertedOddsData);
             setIsLoading(false);
+            setIsTableRendered(true);
           })
           .catch(error => {
             setError(error);
             setIsLoading(false);
+            setIsTableRendered(true);
           });
       };
       fetchLotteryData();
@@ -120,7 +124,11 @@ function App() {
         list={lotteryDates}
         onSelecting={setSelectedItem}
       />
-      <TableContent oddsData={oddsData} isLoading={isLoading} error={error} />
+      <Suspense fallback={<div>loading...</div>}>
+        { isTableRendered &&
+          <TableContent oddsData={oddsData} isLoading={isLoading} error={error} />
+        }
+      </Suspense>
     </div>
   );
 }
