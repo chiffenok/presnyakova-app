@@ -1,0 +1,2 @@
+(this["webpackJsonppresnyakova-app"]=this["webpackJsonppresnyakova-app"]||[]).push([[3],{22:function(e,t,a){"use strict";a.r(t);var n=a(0),r=a.n(n),l=a(6);t.default=function(e){var t=e.oddsData,a=e.error;return a?r.a.createElement("p",null,a.message):t.length>0?r.a.createElement(n.Fragment,null,r.a.createElement("p",null,"Results for chosen date:"),r.a.createElement(l.b,{data:t,dataThead:[{title:"Tier"},{title:"Match"},{title:"Winners"},{title:"Amount"}]})):r.a.createElement("p",null,"Choose the date first.")}}}]);
+//# sourceMappingURL=3.43fcbbc2.chunk.js.map

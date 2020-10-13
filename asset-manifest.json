@@ -1,25 +1,27 @@
 {
   "files": {
     "main.css": "/presnyakova-app/static/css/main.67c9c8ba.chunk.css",
-    "main.js": "/presnyakova-app/static/js/main.ca8532b5.chunk.js",
-    "main.js.map": "/presnyakova-app/static/js/main.ca8532b5.chunk.js.map",
-    "runtime-main.js": "/presnyakova-app/static/js/runtime-main.ff8a83c9.js",
-    "runtime-main.js.map": "/presnyakova-app/static/js/runtime-main.ff8a83c9.js.map",
+    "main.js": "/presnyakova-app/static/js/main.edc821aa.chunk.js",
+    "main.js.map": "/presnyakova-app/static/js/main.edc821aa.chunk.js.map",
+    "runtime-main.js": "/presnyakova-app/static/js/runtime-main.aeec464b.js",
+    "runtime-main.js.map": "/presnyakova-app/static/js/runtime-main.aeec464b.js.map",
     "static/css/2.bc2d62d5.chunk.css": "/presnyakova-app/static/css/2.bc2d62d5.chunk.css",
-    "static/js/2.85aec2a4.chunk.js": "/presnyakova-app/static/js/2.85aec2a4.chunk.js",
-    "static/js/2.85aec2a4.chunk.js.map": "/presnyakova-app/static/js/2.85aec2a4.chunk.js.map",
+    "static/js/2.8c4cbfb9.chunk.js": "/presnyakova-app/static/js/2.8c4cbfb9.chunk.js",
+    "static/js/2.8c4cbfb9.chunk.js.map": "/presnyakova-app/static/js/2.8c4cbfb9.chunk.js.map",
+    "static/js/3.43fcbbc2.chunk.js": "/presnyakova-app/static/js/3.43fcbbc2.chunk.js",
+    "static/js/3.43fcbbc2.chunk.js.map": "/presnyakova-app/static/js/3.43fcbbc2.chunk.js.map",
     "index.html": "/presnyakova-app/index.html",
-    "precache-manifest.658b1fbbc91794089fa93105e121531f.js": "/presnyakova-app/precache-manifest.658b1fbbc91794089fa93105e121531f.js",
+    "precache-manifest.1a19c9480bfae4c60dfd7253bbc0161c.js": "/presnyakova-app/precache-manifest.1a19c9480bfae4c60dfd7253bbc0161c.js",
     "service-worker.js": "/presnyakova-app/service-worker.js",
     "static/css/2.bc2d62d5.chunk.css.map": "/presnyakova-app/static/css/2.bc2d62d5.chunk.css.map",
     "static/css/main.67c9c8ba.chunk.css.map": "/presnyakova-app/static/css/main.67c9c8ba.chunk.css.map",
-    "static/js/2.85aec2a4.chunk.js.LICENSE.txt": "/presnyakova-app/static/js/2.85aec2a4.chunk.js.LICENSE.txt"
+    "static/js/2.8c4cbfb9.chunk.js.LICENSE.txt": "/presnyakova-app/static/js/2.8c4cbfb9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff8a83c9.js",
+    "static/js/runtime-main.aeec464b.js",
     "static/css/2.bc2d62d5.chunk.css",
-    "static/js/2.85aec2a4.chunk.js",
+    "static/js/2.8c4cbfb9.chunk.js",
     "static/css/main.67c9c8ba.chunk.css",
-    "static/js/main.ca8532b5.chunk.js"
+    "static/js/main.edc821aa.chunk.js"
   ]
 }
