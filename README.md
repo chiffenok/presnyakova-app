@@ -1,5 +1,7 @@
 # Presnyakova-app
 
+[chiffenok.github.io/presnyakova-app/](https://chiffenok.github.io/presnyakova-app/)
+
 To run app
 ````bash
 $ npm install

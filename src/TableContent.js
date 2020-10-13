@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import { Table } from 'presnyakova-lib';
 
 const TableContent = props => {
-  const { oddsData, error } = props;
+  const { oddsData, isLoading, error } = props;
   const headerData = [
     {
       title: 'Tier',
@@ -22,6 +22,10 @@ const TableContent = props => {
     return <p>{error.message}</p>;
   }
 
+  if (isLoading) {
+    return <p>Loading ...</p>;
+  }
+  
   if (oddsData.length > 0) {
     return (
         <Fragment>
